@@ -1,0 +1,61 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 600px;
+  background-image: url('https://media.istockphoto.com/photos/elderly-male-mentalist-demonstrating-mindreading-power-at-camera-picture-id1172311182?b=1&k=20&m=1172311182&s=170667a&w=0&h=25k5Laej9FbUVXZK3-jH_Z9KksHfSkJneW4M0NjsATk=');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: black;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: black;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resultado {
+  color: black;
+  text-align: center;
+  margin-top: 16px;
+}
